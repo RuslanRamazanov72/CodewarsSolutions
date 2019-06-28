@@ -1,5 +1,8 @@
-Hello
+## Hello
 
-=====
-
-If it works, you see it
+* https://www.codewars.com/kata/remove-exclamation-marks/train/javascript
+```javascript
+function removeExclamationMarks(s) {
+  return s.replace(/!/g,'');
+}
+```
