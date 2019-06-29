@@ -1,6 +1,6 @@
-## Hello
+## Hello, here I will be add my CW solutions 
 
-* https://www.codewars.com/kata/remove-exclamation-marks/train/javascript
+[Remove exclamation marks] (https://www.codewars.com/kata/remove-exclamation-marks/train/javascript)
 ```javascript
 function removeExclamationMarks(s) {
   return s.replace(/!/g,'');
