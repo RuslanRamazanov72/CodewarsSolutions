@@ -1,13 +1,13 @@
 ## Hello, here I will be add my CW solutions 
 
-[Remove exclamation marks] (https://www.codewars.com/kata/remove-exclamation-marks/train/javascript)
+[Remove exclamation marks](https://www.codewars.com/kata/remove-exclamation-marks/train/javascript)
 ```javascript
 function removeExclamationMarks(s) {
   return s.replace(/!/g,'');
 }
 ```
 
-[Switch it Up!] (https://www.codewars.com/kata/5808dcb8f0ed42ae34000031)
+[Switch it Up!](https://www.codewars.com/kata/5808dcb8f0ed42ae34000031)
 
 ```javascript
 function switchItUp(number){
@@ -16,7 +16,7 @@ function switchItUp(number){
 }
 ```
 
-[Student's Final Grade] (https://www.codewars.com/kata/5ad0d8356165e63c140014d4)
+[Student's Final Grade](https://www.codewars.com/kata/5ad0d8356165e63c140014d4)
 
 ```javascript
 function finalGrade (exam, projects) {
@@ -24,5 +24,19 @@ function finalGrade (exam, projects) {
   if (exam > 75 && projects >= 5) return 90;
   if (exam > 50 && projects >= 2) return 75
   return 0;  
+}
+```
+
+[Beginner - Lost Without a Map](https://www.codewars.com/kata/57f781872e3d8ca2a000007e)
+
+```javascript
+function maps(x){
+let arr=[];
+  for(let i=0; i<x.length; i++){
+    
+    arr[i] = x[i]*2;
+    
+  }
+  return arr;
 }
 ```
