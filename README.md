@@ -40,3 +40,24 @@ let arr=[];
   return arr;
 }
 ```
+
+[Return the day](https://www.codewars.com/kata/return-the-day/javascript) /*Boolean/*
+
+```javascript
+function whatday(num) { 
+  let error = 'Wrong, please enter a number between 1 and 7';
+  let b = {
+1: 'Sunday',
+2: 'Monday',
+3: 'Tuesday',
+4: 'Wednesday',
+5: 'Thursday',
+6: 'Friday',
+7: 'Saturday',
+8: 'Sunday',
+};
+  if (num >= 8 || num <= 0) {
+    return error;
+  } else return b[num];
+}
+```
