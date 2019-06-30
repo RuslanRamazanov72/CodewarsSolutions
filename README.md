@@ -61,3 +61,27 @@ function whatday(num) {
   } else return b[num];
 }
 ```
+
+[Super Duper Easy](https://www.codewars.com/kata/55a5bfaa756cfede78000026) /*Boolean/*
+
+```javascript
+function problem(x){
+  if (typeof x === 'number') {
+  return x = (x * 50) + 6;
+  } else (typeof x === 'string') 
+  return 'Error';
+}
+```
+
+[Capitalization and Mutability](https://www.codewars.com/kata/595970246c9b8fa0a8000086) /*Loop/*
+
+```javascript
+function capitalizeWord(word) {
+  let newWord = word[0].toUpperCase();
+  let str = '';
+    for (let i  = 1; i < word.length; i++) {
+     newWord += word[i];
+     }
+  return newWord;
+}
+```
