@@ -62,10 +62,6 @@ function whatday(num) {
 }
 ```
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
 [Super Duper Easy](https://www.codewars.com/kata/55a5bfaa756cfede78000026) /*Boolean/*
 
 ```javascript
@@ -88,23 +84,6 @@ function capitalizeWord(word) {
      }
   return newWord;
 }
-<<<<<<< Updated upstream
 ```
-=======
-```
-=======
 
-
-
-[Thinkful - Logic Drills: Traffic light](https://www.codewars.com/kata/thinkful-logic-drills-traffic-light/train/javascript) /*Boolean/*
-
-```javascript
-function updateLight(current) {
-  let go = 'green';
-  let ready = 'yellow';
-  let stop = 'red';
-  if (current === go) return ready
-  if (current === ready) return stop
-  if (current === stop) return go
-}
-```
+**
