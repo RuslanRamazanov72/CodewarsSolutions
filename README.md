@@ -61,5 +61,3 @@ function whatday(num) {
   } else return b[num];
 }
 ```
-
-* Hey
