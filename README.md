@@ -108,3 +108,15 @@ for(let i = 0; i < arrayOfSheep.length; i++){
   return count;
 }
 ```
+
+[Get list sum recursively](https://www.codewars.com/kata/57a84137cf1fa5f9f80000d6) /*7 kyu/*
+
+```javascript
+function sumR(x) {
+  if (x.length === 0){
+    return 0;
+  } else {
+    return x.shift() + sumR(x);
+  }
+}
+```
