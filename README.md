@@ -108,3 +108,16 @@ for(let i = 0; i < arrayOfSheep.length; i++){
   return count;
 }
 ```
+
+[Reversed Words](https://www.codewars.com/kata/reversed-words/javascript) /*Methods/*
+
+```javascript
+function reverseWords(str){
+ let a = str.split(' ')
+ 
+   let b = a.reverse();
+ 
+  let c = b.join(' ');
+  return c
+}
+```
