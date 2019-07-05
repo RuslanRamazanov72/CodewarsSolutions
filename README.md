@@ -120,3 +120,28 @@ function sumR(x) {
   }
 }
 ```
+[Reversed Words](https://www.codewars.com/kata/reversed-words/javascript) /*Methods/*
+
+```javascript
+function reverseWords(str){
+ let a = str.split(' ')
+ 
+   let b = a.reverse();
+ 
+  let c = b.join(' ');
+  return c
+}
+```
+
+[Palindrome Strings](https://www.codewars.com/kata/palindrome-strings/train/javascript) /*Palindrome/*
+
+```javascript
+function isPalindrome(line) {
+
+  for (let i = 0; i < line.length/2; i++) {
+    if (line[i] !== line[line.length - 1 - i]) {
+    return false;
+    } return true;
+  }
+}
+```
