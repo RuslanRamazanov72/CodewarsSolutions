@@ -146,4 +146,15 @@ function isPalindrome(line) {
 }
 ```
 
-### Hey test again
+[Hey](https://www.codewars.com/kata/5a523566b3bfa84c2e00010b/solutions/javascript/me/best_practice) /*Boolean/*
+
+```javascript
+function minSum(arr) {
+  let cnt = 0;
+  arr = arr.sort((a,b) => b - a);
+  for (let i = 0; i < arr.length / 2; i++) {
+    cnt += arr[i] * arr[arr.length - 1 - i];
+  }
+  return cnt;
+}
+```
