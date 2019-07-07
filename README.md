@@ -146,7 +146,7 @@ function isPalindrome(line) {
 }
 ```
 
-[Hey](https://www.codewars.com/kata/5a523566b3bfa84c2e00010b/solutions/javascript/me/best_practice) /*Boolean/*
+[Minimize Sum Of Array (Array Series #1)](https://www.codewars.com/kata/5a523566b3bfa84c2e00010b/solutions/javascript/me/best_practice) /*Boolean/*
 
 ```javascript
 function minSum(arr) {
