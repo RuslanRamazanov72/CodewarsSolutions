@@ -222,3 +222,24 @@ function findMissing(arr1, arr2) {
   }
 }
 ```
+
+[Numerical Palindrome #1.5](https://www.codewars.com/kata/58e09234ca6895c7b300008c)
+
+```javascript
+function palindrome(num,s) { 
+  if (typeof num !== 'number' || typeof s !== 'number' || num < 0) {
+    return 'Not valid';
+  }
+  
+  let array = [];
+  if (num < 10) {
+    num = 10;
+  }
+  for (let i = num; array.length < s; i++) {
+    if (i == i.toString().split('').reverse().join('')) {
+      array.push(i);
+    }
+  }
+  return array;
+}
+```
