@@ -243,3 +243,17 @@ function palindrome(num,s) {
   return array;
 }
 ```
+
+[Sleigh Authentication](https://www.codewars.com/kata/52adc142b2651f25a8000643)
+
+```javascript
+function Sleigh() {}
+
+Sleigh.prototype.authenticate = function(name, password) {
+  let login = 'Santa Claus';
+  let password1 = 'Ho Ho Ho!';
+    if (name === login && password === password1) {
+      return true
+    } else return false
+};
+```
