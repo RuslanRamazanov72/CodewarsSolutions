@@ -257,3 +257,16 @@ Sleigh.prototype.authenticate = function(name, password) {
     } else return false
 };
 ```
+
+[Who likes it?](https://www.codewars.com/kata/5266876b8f4bf2da9b000362/solutions/javascript) /*6 kyu/*
+
+```javascript
+function likes(names) {
+  let l = names.length;
+  if (l === 0) return "no one likes this";
+  if (l === 1) return `${names} likes this`;
+  if (l === 2) return `${names[0]} and ${names[1]} like this`;
+  if (l === 3) return `${names[0]}, ${names[1]} and ${names[2]} like this`;
+  if (l > 3) return `${names[0]}, ${names[1]} and ${l - 2} others like this`;
+} 
+```
