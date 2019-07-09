@@ -205,3 +205,20 @@ function palindrome(num) {
   } else return false;
 }
 ```
+
+[Find the missing element between two arrays](https://www.codewars.com/kata/5a5915b8d39ec5aa18000030)
+
+```javascript
+function findMissing(arr1, arr2) {
+  let misEl;
+  let a1 = arr1.sort((a,b) => a - b);
+  let a2 = arr2.sort((a,b) => a - b);
+  
+  for (let i = 0; i < a1.length; i++) {
+    if (a1[i] !== a2[i]) {
+      misEl = a1[i]
+      return misEl;
+    }
+  }
+}
+```
