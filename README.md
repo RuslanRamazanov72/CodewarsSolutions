@@ -289,3 +289,20 @@ const rps = (p1, p2) => {
    if(p1 === p2) return 'Draw!';
 };
 ```
+
+[Reverse every other word in the string](https://www.codewars.com/kata/reverse-every-other-word-in-the-string/train/javascript)
+
+```javascript
+function reverse(str){
+  return str
+  .trim()
+  .split(' ')
+  .map((el, i) => {
+    if(i % 2) {
+      return el.split('').reverse().join('');
+    }
+    return el;
+  })
+  .join(' ');
+} 
+```
