@@ -306,3 +306,12 @@ function reverse(str){
   .join(' ');
 } 
 ```
+
+[You Can't Code Under Pressure #1](https://www.codewars.com/kata/53ee5429ba190077850011d4)
+
+```javascript
+function doubleInteger(i) {
+  i = i * 2
+  return i;
+}
+```
