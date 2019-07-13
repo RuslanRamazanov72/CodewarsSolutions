@@ -315,6 +315,3 @@ function doubleInteger(i) {
   return i;
 }
 ```
-
-
-knanla
