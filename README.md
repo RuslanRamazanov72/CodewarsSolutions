@@ -315,3 +315,16 @@ function doubleInteger(i) {
   return i;
 }
 ```
+[Power](https://www.codewars.com/kata/562926c855ca9fdc4800005b/solutions/javascript/me/best_practice)
+
+```javascript
+function numberToPower(number, power){
+   let sum = 1;
+   let i = 1;
+ while (i <= power) {
+   sum = number * sum;
+   i++;
+ } 
+  return sum
+}
+```
