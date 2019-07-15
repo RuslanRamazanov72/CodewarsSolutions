@@ -357,3 +357,16 @@ function infiniteLoop(arr,d,n){
   return arr;
 }
 ```
+
+[Miles per gallon to kilometers per liter](https://www.codewars.com/users/RuslanR/completed_solutions)
+
+```jac=vascript
+function converter (mpg) {
+  let a = mpg * 1.609344;
+	  let b = a / 4.54609188
+    c = b.toFixed(2);
+
+    return Number(c);
+
+}
+```
