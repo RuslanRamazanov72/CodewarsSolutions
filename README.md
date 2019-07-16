@@ -409,3 +409,12 @@ function howMuchILoveYou(nbPetals) {
   return lastPetal
 }
 ```
+
+[For Twins: 2. Math operations](https://www.codewars.com/kata/59c287b16bddd291c700009a)
+
+```javascript
+function iceBrickVolume(radius, bottleLength, rimLength) {
+    let s = ((radius ** 2) * (bottleLength - rimLength)) * 2;
+  return s;
+}
+```
