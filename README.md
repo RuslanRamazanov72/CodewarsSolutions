@@ -449,3 +449,20 @@ function findLongest(str) {
   return longest;
 };
 ```
+
+[Sum of Array Averages](https://www.codewars.com/kata/56d5166ec87df55dbe000063/solutions/javascript/me/best_practice)
+```javascript
+const sumAverage = (arr) => {
+  let res = 0;
+  for(let i = 0; i < arr.length; i++){
+    let sum = 0;
+    for(let j = 0; j < arr[i].length; j++){
+      sum += arr[i][j];
+      console.log(sum)
+    }
+    res += sum/arr[i].length;
+    console.log(res);
+  }
+  return Math.floor(res);
+}
+```
