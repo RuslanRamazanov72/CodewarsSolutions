@@ -466,3 +466,13 @@ const sumAverage = (arr) => {
   return Math.floor(res);
 }
 ```
+
+[Number of People in the Bus](https://www.codewars.com/kata/5648b12ce68d9daa6b000099/solutions/javascript)
+
+```javascript
+let number = function(busStops) {
+  return busStops.reduce((sum, [a, b]) => {
+    return sum + a - b;
+  }, 0)
+}
+```
