@@ -496,3 +496,11 @@ let even = arr.filter((el) => el % 2 === 0).sort((a,b)=> b - a);
      return arr2;
   };
 ```
+
+[Convert boolean values to strings 'Yes' or 'No'.](https://www.codewars.com/kata/53369039d7ab3ac506000467)
+```jvascript
+function boolToWord( bool ){
+   if (bool === true) return 'Yes';
+   if (bool === false) return 'No';
+};
+```
