@@ -504,5 +504,3 @@ function boolToWord( bool ){
    if (bool === false) return 'No';
 };
 ```
-test 
-test 1
