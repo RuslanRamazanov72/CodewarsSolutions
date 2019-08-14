@@ -1,5 +1,5 @@
 
-// Simple Palindrome
+// [Simple Palindrome]
 function isPaKlindrome(line) {
 
     for (let i = 0; i < line.length/2; i++) {
@@ -9,7 +9,7 @@ function isPaKlindrome(line) {
     }
 }
 
-// Counting sheep
+// [Counting sheep]
 function countSheeps(arrayOfSheep) {
     let count = 0;
     for (let i = 0; i < arrayOfSheep.length; i++) {
