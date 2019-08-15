@@ -23,5 +23,3 @@ function balancedNum(number){
 
     return (sumF === sumB) ? 'Balanced' : 'Not Balanced';
 }
-//test
-//testov
