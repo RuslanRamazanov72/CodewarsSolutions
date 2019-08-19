@@ -23,3 +23,19 @@ function balancedNum(number){
 
     return (sumF === sumB) ? 'Balanced' : 'Not Balanced';
 }
+
+// Fibonacci
+
+function Fibonacci (fib) {
+
+    let f1 = 0;
+    let f2 = 1;
+    let cf = 1;
+        for (let i = 1; i < n; i++) {
+            cf = f1 + f2;
+            f1 = f2;
+            f2 = cf;
+        }
+        return cf;
+}
+
