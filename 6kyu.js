@@ -9,3 +9,21 @@ function solve(s){
     }
     return cnt;
 }
+
+// Sort odd and even numbers in different order
+function sortArray(arr) {
+    let odd = arr.filter((el)=> el % 2 === 1).sort((a,b)=> a - b);
+    let even = arr.filter((el) => el % 2 === 0).sort((a,b)=> b - a);
+    if (arr.length === 0){
+        return arr;
+    }
+    let arr2 = [];
+    for (let i = 0; i < arr.length; i++){
+        if(arr[i] % 2 !== 0){
+            arr2.push(odd.shift());
+        }else if(arr[i] % 2 === 0){
+            arr2.push(even.shift());
+        }
+    }
+    return arr2;
+}
