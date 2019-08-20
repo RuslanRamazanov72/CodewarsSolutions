@@ -54,3 +54,21 @@ function unique(arr){
     return a;
 }
 
+function unique2 (arr){
+    const a = {};
+    const f = [];
+    for(let i = 0; i < arr.length; i++){
+        if(!a[arr[i]]) {
+            f.push(arr[i]);
+            a[arr[i]] = true;
+
+            console.log(a);
+        }
+    }
+
+    return f;
+
+}
+
+console.log(unique2(arr));
+
