@@ -38,7 +38,7 @@ function Fibonacci (fib) {
         }
         return cf;
 }
-
+// Solution from Julia
 let arr = [10, 2, -4, 10, 6, -4, 98];
 // [10, 2, -4, 6, 98]
 
@@ -53,7 +53,7 @@ function unique(arr){
 
     return a;
 }
-
+// Solution from Viktor
 function unique2 (arr){
     const a = {};
     const f = [];
