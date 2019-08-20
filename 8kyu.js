@@ -39,3 +39,15 @@ function boolToWord( bool ){
     if (bool === true) return 'Yes';
     if (bool === false) return 'No';
 };
+
+// Get the mean of an array
+function getAverage(marks){
+    let sum = 0;
+    let count = 0;
+    for (let i = 0; i < marks.length; i++) {
+        sum = sum + marks[i];
+        count++;
+    }
+    let res = sum/count;
+    return Math.floor(res);
+}
