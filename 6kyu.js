@@ -27,3 +27,4 @@ function sortArray(arr) {
     }
     return arr2;
 }
+
