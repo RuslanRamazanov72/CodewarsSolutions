@@ -51,3 +51,7 @@ function getAverage(marks){
     let res = sum/count;
     return Math.floor(res);
 }
+
+const arr = ['sa', '33', 121, -19, 51, 23, true];
+
+const num = arr.filter(el => typeof el === "number" && el < 50);
