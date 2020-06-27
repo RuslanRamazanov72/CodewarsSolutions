@@ -8,7 +8,7 @@
 let DI = function (dependency) {
     this.dependency = dependency;
 };
-
+// this is just for test
 // Should return new function with resolved dependencies
 DI.prototype.inject = function (func) {
     let methods = func.toString().match(/function\s?\((.+)\)\s?{/);
